@@ -3,7 +3,7 @@ const path=require("path");
 const app=express();
 const hbs=require("hbs");
 // const jwt=require("jsonwebtoken");
-const port=process.env.PORT || 8000;
+const port=process.env.PORT || 3000;
 require("./db/conn");
 const User=require("./models/users");
 const static_path=path.join(__dirname,"../public");
